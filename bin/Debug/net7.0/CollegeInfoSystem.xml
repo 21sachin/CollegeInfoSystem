@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CollegeInfoSystem</name>
+    </assembly>
+    <members>
+        <member name="M:CollegeInfoSystem.Controllers.CollegeController.#ctor(CollegeInfoSystem.Repository.ICollege,Microsoft.Extensions.Options.IOptions{CollegeInfoSystem.Helper.Messages})">
+            <summary>
+            
+            </summary>
+            <param name="college"></param>
+            <param name="messages"></param>
+        </member>
+        <member name="M:CollegeInfoSystem.Controllers.CollegeController.AddTeacherDetail(CollegeInfoSystem.DTos.TeacherDTO)">
+            <summary>
+            Use to add teacher
+            </summary>
+            <param name="teacher"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CollegeInfoSystem.Controllers.CollegeController.AddStudentDetail(CollegeInfoSystem.DTos.StudentDTO)">
+            <summary>
+            Add Student 
+            </summary>
+            <param name="student"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CollegeInfoSystem.CustomMiddleware.ErrorDetails">
+            <summary>
+            Error Details
+            </summary>
+        </member>
+        <member name="T:CollegeInfoSystem.Migrations.Intial">
+            <inheritdoc />
+        </member>
+        <member name="M:CollegeInfoSystem.Migrations.Intial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CollegeInfoSystem.Migrations.Intial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:CollegeInfoSystem.Migrations.Intial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
